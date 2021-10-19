@@ -1,0 +1,19 @@
+{
+  "name": "animal-classifier-tfjs",
+  "version": "1.0.0",
+  "description": "An animal classifier web app",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sharan Sajiv Menon",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.9.0",
+    "bootstrap": "^5.1.3"
+  }
+}
